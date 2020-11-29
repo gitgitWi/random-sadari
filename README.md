@@ -6,4 +6,9 @@
 
 - CodeSandbox에서 빠르게 작업 후 Vercel로 바로 배포!
 
-https://random-sadari.vercel.app/
+  - 배포주소: https://random-sadari.vercel.app/
+  
+- 기술 스택
+
+  - `React-dom`, `TypeScript`, `Styled-components`
+  - 처음 사용해 본 것: `Material-UI`, `Vercel`
