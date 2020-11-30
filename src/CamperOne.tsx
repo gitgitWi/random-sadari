@@ -16,6 +16,20 @@ const StyledOrderCard = styled(Card)`
   background: linear-gradient(45deg, #eee6fd, #dee2ff, #eee6fd);
   color: #2c313a;
   cursor: pointer;
+
+  animation: show-up 0.5s ease-in-out;
+
+  @keyframes show-up {
+    0% {
+      transform: translateY(20px);
+      opacity: 0.05;
+    }
+
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 `;
 
 const StyledRandomNum = styled(Typography)`
