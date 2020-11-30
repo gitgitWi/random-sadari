@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react";
-import { Button } from "@material-ui/core";
+import { Button, Typography } from "@material-ui/core";
 import styled from "styled-components";
 
 const StyledHeader = styled(Button)`
@@ -15,9 +15,21 @@ const StyledHeader = styled(Button)`
   font-weight: 500;
   font-size: 24px;
   color: #ffbe0b;
-  background: linear-gradient(45deg, #8338ec 10%, #3a86ff);
+  background: rgb(131, 56, 236);
+  box-shadow: 0 0 5px rgba(255, 195, 31, 0.5);
 
   cursor: pointer;
+`;
+
+const StyledHeaderInfo = styled(Typography)`
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 10px;
+  color: rgb(240, 242, 244);
+
+  &::after {
+    content: "👆👆👆위 버튼을 눌러주세요👆👆👆";
+  }
 `;
 
 interface HeaderProps {
@@ -40,6 +52,11 @@ export default function Header({ setDataOrder }: HeaderProps): ReactElement {
   };
 
   return (
-    <StyledHeader onClick={randomButtonHandler}>랜덤 순서 정하기</StyledHeader>
+    <>
+      <StyledHeader onClick={randomButtonHandler}>
+        랜덤 순서 정하기
+      </StyledHeader>
+      <StyledHeaderInfo />
+    </>
   );
 }

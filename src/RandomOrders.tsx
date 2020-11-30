@@ -12,6 +12,7 @@ const StyledOrdersWrapper = styled(Grid)`
   align-items: center;
 
   margin: 24px 0;
+  width: max-content;
   max-width: 900px;
 `;
 

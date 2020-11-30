@@ -7,6 +7,10 @@ const StyledOrderGrid = styled(Grid)`
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+
+  &:hover {
+    opacity: 0.9;
+  }
 `;
 
 const StyledOrderCard = styled(Card)`

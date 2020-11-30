@@ -8,8 +8,12 @@ import RandomOrders from "./RandomOrders";
 const StyledAppWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+
+  margin-top: 50px;
+  height: max-content;
+  background-color: transparent;
 
   font-family: source-han-sans-korean, sans-serif;
   font-style: normal;
