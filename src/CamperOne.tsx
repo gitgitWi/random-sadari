@@ -8,6 +8,8 @@ const StyledOrderGrid = styled(Grid)`
   justify-content: flex-start;
   align-items: center;
 
+  font-family: "Noto Sans KR", sans-serif;
+
   &:hover {
     opacity: 0.9;
   }

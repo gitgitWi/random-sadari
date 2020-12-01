@@ -7,11 +7,14 @@ const StyledHeader = styled(Button)`
   justify-content: center;
   align-items: center;
 
-  width: 200px;
+  width: max-content;
   height: 60px;
+  padding: 0 15px;
+
   border: 0;
   border-radius: 15px;
 
+  font-family: "Sunflower", sans-serif;
   font-weight: 500;
   font-size: 24px;
   color: #ffbe0b;

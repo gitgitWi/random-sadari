@@ -15,8 +15,7 @@ const StyledAppWrapper = styled.div`
   height: max-content;
   background-color: transparent;
 
-  font-family: source-han-sans-korean, sans-serif;
-  font-style: normal;
+  font-family: "Noto Sans KR", sans-serif;
 `;
 
 export default function App(): ReactElement {
